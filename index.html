@@ -16,9 +16,9 @@
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77" style="font-family: 'Bebas Neue', serif;">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav" style="font-size: 20px;">
+    <nav class="bg-opacity-25 navbar navbar-light navbar-expand-md fixed-top" id="mainNav" style="font-size: 20px;">
         <div class="container">
-            <div data-aos="fade-right" class="d-flex align-items-center"><img id="logo" src="assets/img/fitsam-logo.png" style="height: 86px;margin: auto;margin-right: 17px;"><a class="navbar-brand" id="text-branding" href="#" style="font-family: 'Bebas Neue', serif;">FITSAM GYM</a></div><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+            <div data-aos="fade-right" class="d-flex align-items-center"><img id="logo" src="assets/img/fitsam-logo.png" style="height: 86px;margin: auto;margin-right: 17px;"><a class="opacity-100 navbar-brand" id="text-branding" href="#" style="font-family: 'Bebas Neue', serif;">FITSAM GYM</a></div><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
             <div data-aos="fade-left" class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item nav-link"><a class="nav-link active" href="#tarifs">tarifs</a></li>
@@ -28,19 +28,19 @@
             </div>
         </div>
     </nav>
-    <header style="overflow: hidden;" class="h-100 w-100">
-        <div class="overlay"></div>
+    <header style="overflow: hidden; z-index: 1;" class="position-relative h-100 w-100">
+        <div style="z-index: 2;" class="opacity-50 overlay bg-black position-absolute w-100 h-100 "></div>
 
   <!-- The HTML5 video element that will create the background video on the header -->
-  <video style="transform: scale(1.4); overflow: hidden;" class="h-100 mw-100 " playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+  <video style="transform: scale(1.4); overflow: hidden;" class=" h-100 mw-100 " playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     <source src="vid/fitsam-background.mp4" type="video/mp4">
   </video>
 </header>
-    <section class="bg-white text-black text-center content-section" id="tarifs" style="padding-bottom: 0;">
-        <div class="container justify-content-center align-items-center align-content-center" style="height: 100%;">
+    <section style="padding-top: 150px; background-image: url('assets/img/baackground.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; backgroundop" class="bg-white text-white text-center content-section" id="tarifs">
+        <div class="vh-30 container justify-content-center align-items-center align-content-center" style="height: 100%;">
             <div class="row">
                 <div class="col-lg-8 mx-auto" id="column">
-                    <h2 data-aos="fade-down" id="tarifs-title" class="titles">Tarifs de la salle</h2>
+                    <h2 data-aos="fade-down" id="tarifs-title" class="fs-1 titles">Tarifs de la salle</h2>
                     <div id="flex-container">
                         <div class="d-flex justify-content-between align-items-center align-content-center" id="tarifs-container-1">
                             <div data-aos="fade-right" class="text-center tarifs-card">
@@ -84,7 +84,7 @@
     <section class="text-center d-flex align-items-center download-section content-section" id="gallery">
         <div data-aos="fade-right" class="container" id="notre-salle-text" style="margin: 0;">
             <div class="col-lg-8 mx-auto">
-                <h1 class="titles">Notre salle</h1>
+                <h1 class="titles fs-1">Notre salle</h1>
                 <p data-aos="fade-right" data-aos-delay="100">You can download Grayscale for free on the preview page.</p>
             </div>
         </div>
@@ -116,14 +116,14 @@
         <div class="container">
             <div class="row" style="border-width: 1px;">
                 <div class="col-lg-8 mx-auto">
-                    <h2>contactez nous</h2>
+                    <h2 data-aos="fade-down" class="fs-1">contactez nous</h2>
                     <section class="contact-clean" style="background: rgba(255,255,255,0);padding: 21px 0px;">
                         <form method="post">
-                            <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="nom" style="border-width: 2px;border-color: rgb(0,0,0);"></div>
-                            <div class="mb-3"><input class="form-control" type="tel" placeholder="numero de telephone" style="border-width: 2px;border-color: rgb(0,0,0);"></div>
-                            <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" style="border-width: 2px;border-color: rgb(0,0,0);"><small class="form-text text-danger"></small></div>
-                            <div class="mb-3"><textarea class="form-control" name="message" placeholder="description" rows="14" style="border-width: 2px;border-color: rgb(0,0,0);"></textarea></div>
-                            <div class="mb-3"><button class="btn btn-primary" type="submit" style="color: rgb(0,0,0);background: rgba(255,255,255,0);border-width: 2px;border-style: solid;">ENVOYER</button></div>
+                            <div  data-aos="fade-right" data-aos-delay="100" class="mb-3"><input class="form-control" type="text" name="name" placeholder="nom" style="border-width: 2px;border-color: rgb(0,0,0);"></div>
+                            <div data-aos="fade-right" data-aos-delay="200" class="mb-3"><input class="form-control" type="tel" placeholder="numero de telephone" style="border-width: 2px;border-color: rgb(0,0,0);"></div>
+                            <div data-aos="fade-right" data-aos-delay="300" class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" style="border-width: 2px;border-color: rgb(0,0,0);"><small class="form-text text-danger"></small></div>
+                            <div data-aos="fade-right" data-aos-delay="400"class="mb-3"><textarea class="form-control" name="message" placeholder="description" rows="14" style="border-width: 2px;border-color: rgb(0,0,0);"></textarea></div>
+                            <div data-aos="fade" class="mb-3"><button class="btn btn-primary" type="submit" style="color: rgb(0,0,0);background: rgba(255,255,255,0);border-width: 2px;border-style: solid;">ENVOYER</button></div>
                         </form>
                     </section>
                     <ul class="list-inline banner-social-buttons"></ul>
