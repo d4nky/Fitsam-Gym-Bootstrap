@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77" style="font-family: 'Bebas Neue', serif;">
     <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav" style="font-size: 20px;">
         <div class="container">
-            <div class="d-flex align-items-center"><img id="logo" src="assets/img/fitsam-logo.png" style="height: 86px;margin: auto;margin-right: 17px;"><a class="navbar-brand" id="text-branding" href="#" style="font-family: 'Bebas Neue', serif;">FITSAM GYM</a></div><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div data-aos="fade-right" class="d-flex align-items-center"><img id="logo" src="assets/img/fitsam-logo.png" style="height: 86px;margin: auto;margin-right: 17px;"><a class="navbar-brand" id="text-branding" href="#" style="font-family: 'Bebas Neue', serif;">FITSAM GYM</a></div><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+            <div data-aos="fade-left" class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item nav-link"><a class="nav-link active" href="#tarifs">tarifs</a></li>
                     <li class="nav-item nav-link"><a class="nav-link" href="#gallery">notre salle</a></li>
@@ -39,10 +40,10 @@
         <div class="container justify-content-center align-items-center align-content-center" style="height: 100%;">
             <div class="row">
                 <div class="col-lg-8 mx-auto" id="column">
-                    <h2 id="tarifs-title" class="titles">Tarifs de la salle</h2>
+                    <h2 data-aos="fade-down" id="tarifs-title" class="titles">Tarifs de la salle</h2>
                     <div id="flex-container">
                         <div class="d-flex justify-content-between align-items-center align-content-center" id="tarifs-container-1">
-                            <div class="text-center tarifs-card">
+                            <div data-aos="fade-right" class="text-center tarifs-card">
                                 <h2 class="tarifs-title" style="font-size: 23px;">HOMME</h2>
                                 <div class="text-start prices">
                                     <div class="left-tarifs-text" style="width: 100%;">
@@ -51,15 +52,15 @@
                                         <p style="width: 265.812px;font-family: Cabin, sans-serif;">Fitness 2 fois/semaine</p>
                                     </div>
                                     <div>
-                                        <p style="font-style: italic;">3500dA/Mois</p>
-                                        <p style="font-style: italic;">4500dA/Mois</p>
-                                        <p style="font-style: italic;">2500dA/Mois</p>
+                                        <p data-aos="fade-right"  data-aos-delay="100" style="font-style: italic;">3500dA/Mois</p>
+                                        <p data-aos="fade-right" data-aos-delay="200" style="font-style: italic;">4500dA/Mois</p>
+                                        <p data-aos="fade-right" data-aos-delay="300" style="font-style: italic;">2500dA/Mois</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="d-flex justify-content-between align-items-center align-content-center" id="tarifs-container">
-                            <div class="text-center tarifs-card">
+                            <div data-aos="fade-left" class="text-center tarifs-card">
                                 <h2 class="tarifs-title" style="font-size: 23px;">FEMME</h2>
                                 <div class="text-start prices">
                                     <div class="left-tarifs-text" style="width: 100%;">
@@ -68,9 +69,9 @@
                                         <p style="width: 265.812px;font-family: Cabin, sans-serif;">Multi (2 fois fitness + 2 fois musculation et cardio/semaine)</p>
                                     </div>
                                     <div>
-                                        <p style="font-style: italic;">3500dA/Mois</p>
-                                        <p style="font-style: italic;">2500dA/Mois</p>
-                                        <p style="font-style: italic;">4500dA/Mois</p>
+                                        <p data-aos="fade-right"  data-aos-delay="100" style="font-style: italic;">3500dA/Mois</p>
+                                        <p data-aos="fade-right"  data-aos-delay="100" style="font-style: italic;">2500dA/Mois</p>
+                                        <p data-aos="fade-right"  data-aos-delay="100" style="font-style: italic;">4500dA/Mois</p>
                                     </div>
                                 </div>
                             </div>
@@ -81,13 +82,13 @@
         </div>
     </section>
     <section class="text-center d-flex align-items-center download-section content-section" id="gallery">
-        <div class="container" id="notre-salle-text" style="margin: 0;">
+        <div data-aos="fade-right" class="container" id="notre-salle-text" style="margin: 0;">
             <div class="col-lg-8 mx-auto">
                 <h1 class="titles">Notre salle</h1>
-                <p>You can download Grayscale for free on the preview page.</p>
+                <p data-aos="fade-right" data-aos-delay="100">You can download Grayscale for free on the preview page.</p>
             </div>
         </div>
-        <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+        <div data-aos="fade" class="carousel slide" data-bs-ride="carousel" id="carousel-1">
             <div class="carousel-inner">
                 <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/1.jpg" alt="Slide Image"></div>
                 <div class="carousel-item"><img class="w-100 d-block" src="assets/img/2.jpg" alt="Slide Image"></div>
@@ -117,10 +118,10 @@
                 <div class="col-lg-8 mx-auto">
                     <h2>contactez nous</h2>
                     <section class="contact-clean" style="background: rgba(255,255,255,0);padding: 21px 0px;">
-                        <form method="post" style="/*border: 2px solid rgb(0,0,0);*/">
+                        <form method="post">
                             <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="nom" style="border-width: 2px;border-color: rgb(0,0,0);"></div>
                             <div class="mb-3"><input class="form-control" type="tel" placeholder="numero de telephone" style="border-width: 2px;border-color: rgb(0,0,0);"></div>
-                            <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" style="border-width: 2px;border-color: rgb(0,0,0);"><small class="form-text text-danger">Please enter a correct email address.</small></div>
+                            <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" style="border-width: 2px;border-color: rgb(0,0,0);"><small class="form-text text-danger"></small></div>
                             <div class="mb-3"><textarea class="form-control" name="message" placeholder="description" rows="14" style="border-width: 2px;border-color: rgb(0,0,0);"></textarea></div>
                             <div class="mb-3"><button class="btn btn-primary" type="submit" style="color: rgb(0,0,0);background: rgba(255,255,255,0);border-width: 2px;border-style: solid;">ENVOYER</button></div>
                         </form>
@@ -136,8 +137,12 @@
             <p>Copyright ©&nbsp;Brand 2022</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/grayscale.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
